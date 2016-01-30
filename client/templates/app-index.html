@@ -1,3 +1,8 @@
 <template name="appIndex">
-	<h1>Hello world</h1>
+	{{> header}}
+	<div class="main">
+		{{> listings}}
+		{{> yield}}
+	</div>
+	{{> footer}}
 </template>
